@@ -68,7 +68,8 @@ public class Main {
                 System.out.println("Multiplication of elements equals: " + multiple);
                 break;
             case "6":
-                System.out.println("Please enter numbers with space as separator. If you ");
+                System.out.println("Please enter numbers with space as separator. If you leave empty valaue " +
+                        "there will get values from 0 to 9999");
                 String strNumbers = scaner.nextLine();
                 int[] numbers = new int[]{};
                 if (strNumbers.equals("")) {
